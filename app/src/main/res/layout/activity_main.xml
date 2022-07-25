@@ -23,10 +23,13 @@
 
 
     <LinearLayout
-        android:padding="8dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
         android:id="@+id/linearLayoutMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
         <LinearLayout
@@ -35,7 +38,6 @@
             android:background="@color/white"
             android:orientation="vertical"
             android:layout_width="120dp"
-            android:layout_marginLeft="40dp"
             android:layout_height="match_parent">
             <ImageView
                 android:scaleType="centerInside"
@@ -46,7 +48,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Thi"
+                android:text="Học lý thuyết"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-medium"
                 android:layout_gravity="center_horizontal"/>
@@ -95,11 +97,14 @@
     </LinearLayout>
 
     <LinearLayout
-        android:padding="8dp"
         android:id="@+id/linearLayoutMain2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
         android:orientation="horizontal">
         <LinearLayout
             android:id="@+id/imgMenuThiSatHach"
@@ -107,7 +112,6 @@
             android:background="@color/white"
             android:orientation="vertical"
             android:layout_width="120dp"
-            android:layout_marginLeft="40dp"
             android:layout_height="match_parent">
             <ImageView
                 android:scaleType="centerInside"
