@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLuyenThiBLX"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#00B2EE"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Luyện thi bằng xe máy"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgSaHinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hinh_main1"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLuyenThiBLX" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSaHinh"
+        app:layout_constraintVertical_bias="0.13"
+        app:layout_editor_absoluteX="1dp">
+
+        <ImageButton
+            android:id="@+id/imgMenuHocLT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:src="@drawable/group_4" />
+
+        <ImageButton
+            android:id="@+id/imgMenuBienBao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:src="@drawable/group_5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutMain"
+        app:layout_constraintVertical_bias="0.13"
+        app:layout_editor_absoluteX="1dp">
+
+        <ImageButton
+            android:id="@+id/imgMenuThiSatHach"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:src="@drawable/group_6" />
+
+        <ImageButton
+            android:id="@+id/imgMenuMeoThi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:src="@drawable/group_7" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
