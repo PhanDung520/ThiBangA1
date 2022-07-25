@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:background="#00B2EE"
+        android:fontFamily="sans-serif-medium"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="Luyện thi bằng xe máy"
         android:textAllCaps="true"

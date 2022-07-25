@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android/ThiBangA1/app/src/main/res/layout/activity_dethi.xml" value="0.3569230769230769" />
+        <entry key="..\:/android/ThiBangA1/app/src/main/res/layout/activity_ly_thuyet.xml" value="0.2574074074074074" />
         <entry key="..\:/android/ThiBangA1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/android/ThiBangA1/app/src/main/res/layout/activity_thi.xml" value="0.3569230769230769" />
+        <entry key="..\:/android/ThiBangA1/app/src/main/res/layout/bienbao_item.xml" value="0.3569230769230769" />
         <entry key="..\:/android/ThiBangA1/app/src/main/res/layout/thongbao_dialog_item.xml" value="0.15185185185185185" />
       </map>
     </option>
