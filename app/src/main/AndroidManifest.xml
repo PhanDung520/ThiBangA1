@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thibanga1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ThiBangA1">
+        <activity android:name=".lythuyet.QuestionCauDiemlietActivity"></activity>
+        <activity android:name=".lythuyet.LuatgiaothongActivity"></activity>
+        <activity android:name=".lythuyet.SahinhActivity"></activity>
+        <activity android:name=".thi.DethiSo1Activity" />
+        <activity android:name=".thi.DethiSo2Activity" />
+        <activity android:name=".thi.DethiSo3Activity" />
+        <activity android:name=".thi.DethiSo4Activity" />
+        <activity android:name=".thi.DethiSo5Activity" />
+        <activity android:name=".thi.DethiSo6Activity" />
+        <activity android:name=".MeothiActivity" />
+        <activity android:name=".ThiActivity" />
+        <activity android:name=".BienbaogiaothongActivity" />
+        <activity android:name=".LyThuyetActivity" />
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

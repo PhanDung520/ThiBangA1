@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "609484180408",
+    "firebase_url": "https://datathibanga1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "datathibanga1",
+    "storage_bucket": "datathibanga1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609484180408:android:7b8bdfee7a5b0cd2491d4d",
+        "android_client_info": {
+          "package_name": "com.example.thibanga1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609484180408-tuqiego6a3fk30hks9hgqojv8i5iasji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVDGcBMx1kQhcGJbjN1j1Cpmj7n5p9Tr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609484180408-tuqiego6a3fk30hks9hgqojv8i5iasji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
