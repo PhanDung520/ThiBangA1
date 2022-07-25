@@ -23,13 +23,12 @@
 
 
     <LinearLayout
+        android:gravity="center"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
         android:id="@+id/linearLayoutMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingRight="40dp"
-        android:paddingLeft="40dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
         <LinearLayout
@@ -97,12 +96,12 @@
     </LinearLayout>
 
     <LinearLayout
+        android:gravity="center"
         android:id="@+id/linearLayoutMain2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:paddingLeft="40dp"
-        android:paddingRight="40dp"
+
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:orientation="horizontal">
